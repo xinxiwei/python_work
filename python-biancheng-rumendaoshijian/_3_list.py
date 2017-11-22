@@ -1,7 +1,7 @@
-#! /usr/bin/env python
+ï»¿#! /usr/bin/env python
 #coding=utf-8
 
-# ÁĞ±í
+# åˆ—è¡¨
 bicycles = ['trek','cannoda','redline','specialized']
 print (bicycles)
 
@@ -9,46 +9,46 @@ print (bicycles[0])
 print (bicycles[0].title())
 print (bicycles[-1].title())
 
-#ĞŞ¸ÄÁĞ±íÔªËØ
+#ä¿®æ”¹åˆ—è¡¨å…ƒç´ 
 print ("--"*30)
 motocycles = ['honda','yamaha','suzuki']
 print (motocycles)
 motocycles[0] = 'toyota'
 print (motocycles)
 
-#ÁĞ±íÌí¼ÓÔªËØ
+#åˆ—è¡¨æ·»åŠ å…ƒç´ 
 print ("--"*30)
 motocycles.append("bmw")
 print (motocycles)
 
-#ÁĞ±í²åÈëÔªËØ
+#åˆ—è¡¨æ’å…¥å…ƒç´ 
 print ("--"*30)
 motocycles.insert(0,'www')
 print (motocycles)
 
-#É¾³ıÔªËØ
+#åˆ é™¤å…ƒç´ 
 print ("--"*30)
 del motocycles[0]
 print (motocycles)
 
-#popÉ¾³ıÄ©Î²ÔªËØ
+#popåˆ é™¤æœ«å°¾å…ƒç´ 
 print ("--"*30)
 pop_motocycle = motocycles.pop()
 print (motocycles)
 print (pop_motocycle)
 
-#É¾³ıÔªËØ
+#åˆ é™¤å…ƒç´ 
 print ("--"*30)
 motocycles.remove('suzuki')
 print (motocycles)
 
-#ÓÀ¾ÃÅÅĞò
+#æ°¸ä¹…æ’åº
 print ("--"*30)
 cars = ['bmw','audi','toyota','subaru']
 cars.sort()
 print (cars)
 
-#ÁÙÊ±ÅÅĞò
+#ä¸´æ—¶æ’åº
 print ("--"*30)
 cars = ['bmw','audi','toyota','subaru']
 print (cars)
@@ -56,14 +56,14 @@ print (sorted(cars))
 print (cars)
 
 
-#µ¹×Å´òÓ¡ÁĞ±í
+#å€’ç€æ‰“å°åˆ—è¡¨
 cars = ['bmw','audi','toyota','subaru']
 print (cars)
 cars.reverse()
 print (cars)
 
 
-#ÁĞ±í³¤¶È
+#åˆ—è¡¨é•¿åº¦
 cars = ['bmw','audi','toyota','subaru']
 length = len(cars)
 print (length)

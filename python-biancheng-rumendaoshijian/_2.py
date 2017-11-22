@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+ï»¿#! /usr/bin/env python
 #coding=utf-8
 
 
@@ -10,22 +10,22 @@ message = "hello PYTHON world !!"
 print (message)
 
 
-print (message.title())  #titleÊÇÊ××ÖÄ¸´óĞ´
-print (message.upper())  #È«²¿×ª»»³É´óĞ´×ÖÄ¸
-print (message.lower())  #È«²¿×ª»»³ÉĞ¡Ğ´×ÖÄ¸
+print (message.title())  #titleæ˜¯é¦–å­—æ¯å¤§å†™
+print (message.upper())  #å…¨éƒ¨è½¬æ¢æˆå¤§å†™å­—æ¯
+print (message.lower())  #å…¨éƒ¨è½¬æ¢æˆå°å†™å­—æ¯
 
-#ºÏ²¢×Ö·û´®
+#åˆå¹¶å­—ç¬¦ä¸²
 first_name = "xin"
 last_name = "xiwei"
 full_name = first_name + " " + last_name
 print (full_name)
 print ("hello" + " " + full_name.title())
 
-#É¾³ı¿Õ°×
+#åˆ é™¤ç©ºç™½
 str1 = " python "
-print (str1.rstrip())  #É¾³ıÄ©Î²¿Õ°×
-print (str1.lstrip())  #É¾³ı¿ªÍ·¿Õ°×
-print (str1.strip())   #É¾³ı¿ªÍ·Ä©Î²¿Õ°×
+print (str1.rstrip())  #åˆ é™¤æœ«å°¾ç©ºç™½
+print (str1.lstrip())  #åˆ é™¤å¼€å¤´ç©ºç™½
+print (str1.strip())   #åˆ é™¤å¼€å¤´æœ«å°¾ç©ºç™½
 
 
 
